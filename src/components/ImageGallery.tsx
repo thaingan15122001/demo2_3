@@ -36,23 +36,28 @@ const ImageGallery = () => {
         </div>
       </div>
 
-      <div className="gallery-marquee-track mt-20 flex w-max will-change-transform gap-3 sm:mt-28">
-        {[...GALLERY_IMAGES, ...GALLERY_IMAGES].map((src, i) => (
-          <div
-            key={i}
-            className="h-[56vh] shrink-0"
-            style={{ width: 'clamp(200px, 33vw, 480px)' }}
-          >
-            <img
-              src={src}
-              alt=""
-              draggable={false}
-              loading="lazy"
-              className="h-full w-full select-none object-cover object-center"
-              style={{ display: 'block' }}
-            />
-          </div>
-        ))}
+      <div
+        className="gallery-marquee-viewport mt-20 overflow-hidden sm:mt-28"
+        style={{ height: 'clamp(260px, 44vw, 580px)' }}
+      >
+        <div className="gallery-marquee-track flex h-full w-max will-change-transform gap-3">
+          {[...GALLERY_IMAGES, ...GALLERY_IMAGES].map((src, i) => (
+            <div
+              key={i}
+              className="h-full shrink-0 overflow-hidden"
+              style={{ width: 'clamp(200px, 33vw, 480px)' }}
+            >
+              <img
+                src={src}
+                alt=""
+                draggable={false}
+                loading="lazy"
+                className="h-full w-full select-none object-cover object-center"
+                style={{ display: 'block' }}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
