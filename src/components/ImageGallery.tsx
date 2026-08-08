@@ -24,14 +24,14 @@ const ImageGallery = () => {
             id="lookbook-heading"
             className="lg:col-span-7 max-w-[760px] text-[clamp(1.75rem,3.5vw,3.5rem)] font-semibold leading-[0.98] tracking-[-0.055em] text-[#171513]"
           >
-            <span className="block">Diện mạo mới, tự tin hơn mỗi ngày</span>
+            <span className="block">Diện mạo mới, tự tin hơn </span>
             <span className="mt-2 block font-display font-normal italic tracking-[-0.045em] text-[#4a433d]">
               Cùng Triệu Salon tại Lái Thiêu
             </span>
           </h2>
 
           <p className="lg:col-span-5 font-body pb-1 text-[15px] leading-[1.75] tracking-[-0.01em] text-[#6d655e]">
-            Khám phá những diện mạo mới tại Triệu Salon Lái Thiêu — nơi mỗi kiểu tóc được chăm chút theo cá tính, phong cách và đường nét riêng của bạn. Từ cắt, nhuộm đến tạo kiểu, chúng tôi giúp bạn tìm thấy mái tóc phù hợp và tự tin hơn mỗi ngày.
+            Khám phá diện mạo mới tại Triệu Salon Lái Thiêu — nơi mỗi kiểu tóc được chăm chút theo cá tính, phong cách và đường nét riêng của bạn. Từ cắt, nhuộm đến tạo kiểu, chúng tôi giúp bạn tìm thấy mái tóc phù hợp và tự tin hơn mỗi ngày.
           </p>
         </div>
       </div>
