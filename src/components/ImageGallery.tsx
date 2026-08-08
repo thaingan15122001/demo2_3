@@ -30,7 +30,7 @@ const ImageGallery = () => {
             </span>
           </h2>
 
-          <p className="lg:col-span-5 font-body max-w-[440px] pb-1 text-[15px] leading-[1.75] tracking-[-0.01em] text-[#6d655e]">
+          <p className="lg:col-span-5 font-body pb-1 text-[15px] leading-[1.75] tracking-[-0.01em] text-[#6d655e]">
             Khám phá những diện mạo mới tại Triệu Salon Lái Thiêu — nơi mỗi kiểu tóc được chăm chút theo cá tính, phong cách và đường nét riêng của bạn. Từ cắt, nhuộm đến tạo kiểu, chúng tôi giúp bạn tìm thấy mái tóc phù hợp và tự tin hơn mỗi ngày.
           </p>
         </div>
@@ -40,7 +40,7 @@ const ImageGallery = () => {
         {[...GALLERY_IMAGES, ...GALLERY_IMAGES].map((src, i) => (
           <div
             key={i}
-            className="h-[52vh] shrink-0"
+            className="h-[62vh] shrink-0"
             style={{ width: 'clamp(200px, 33vw, 480px)' }}
           >
             <img
