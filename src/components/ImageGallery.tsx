@@ -40,7 +40,7 @@ const ImageGallery = () => {
         {[...GALLERY_IMAGES, ...GALLERY_IMAGES].map((src, i) => (
           <div
             key={i}
-            className="h-[55vh] shrink-0"
+            className="h-[45vh] shrink-0"
             style={{ width: 'clamp(200px, 33vw, 480px)' }}
           >
             <img
